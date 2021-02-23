@@ -5,16 +5,16 @@ public class VendingMachine
     public static void main(String[] args)
     {
     	// Variables
-    	Double A1,C7; // Vending codes
+    	Double A1,C7, J2; // Vending codes
     	Double A2,B4,B5,G8;// Vending codes
-    	Double A9;// Vending codes
-    	A1 = C7 = 1.50; //$1 for code
+    	Double A9,K4;// Vending codes
+    	A1 = C7 = J2  = 1.50; //$1 for code
     	A2 = B4 = B5 = G8 = 2.00; //2$ Amount for code
-    	A9 = 3.00; 	// 3$ for code
+    	A9 = K4 = 3.00; 	// 3$ for code
     	
     	// Prints
         System.out.println("Welcome to the best snack machine of your life! This machine only accepts $1 bills. Please insert money.");
-        System.out.println("[A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00");
+        System.out.println("[A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00 , [J2] Doritos $1.50, [K4] Protein Bar $3.00");
         System.out.println("How many $1 bills would you like to enter?");
        
         Scanner input = new Scanner(System.in);
@@ -63,6 +63,14 @@ public class VendingMachine
         case "g8":
         	System.out.println("Getting G8");
         	amountLeft = amount - G8;
+        	break;
+        case "j2":
+        	System.out.println("Getting J2");
+        	amountLeft = amount - J2;
+        	break;
+        case "k4":
+        	System.out.println("Getting K4");
+        	amountLeft = amount - K4;
         	break;
 		default: // if none match then print this
 			System.out.println("That option does not exist!");
