@@ -14,8 +14,8 @@ public class VendingMachine
     	A9 = K4 = 3.00; 	// 3$ for code
     	
     	// Prints
-        System.out.println("Welcome to the Vending Machine2.0! This machine only accepts $1 bills. Please insert money. (Please enter numbers only");
-        System.out.println("************************************Vending Machine2.0**************************************** \n [A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00 , [J2] Doritos $1.50, [K4] Protein Bar $3.00 \n [L9] Cheetos $2.00 [M5] Twix $2.00");
+        System.out.println("Welcome to the Vending Machine2.0! This machine only accepts $1 bills. Please insert money. (Please enter numbers only)");
+        System.out.println("*****************************************Vending Machine2.0********************************************* \n [A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00, [J2] Doritos $1.50, [K4] Protein Bar $3.00, \n [L9] Cheetos - $2.00, [M5] Twix - $2.00");
         System.out.println("How many $1 bills would you like to enter?");
         
        
@@ -23,7 +23,7 @@ public class VendingMachine
         Double amount = input.nextDouble();
         int amountInt = (int)Math.round(amount); 
         
-        System.out.println("You have put in " + amountInt + " dollar bills");
+        System.out.println("You have put in " + amountInt + " dollar bill(s)");
         System.out.println("Please enter your selected snack code number (Ex. A1,A2,B1,...).");
        
         Scanner input2 = new Scanner(System.in);
@@ -88,8 +88,8 @@ public class VendingMachine
 		}
         
         // Calculating Amount Left
-        System.out.format("Amount Left: $ %.2f", amountLeft);
-       System.out.println(". Thanks! Enjoy your snack!");
+        System.out.format("Change: $ %.2f", amountLeft);
+        System.out.println("  | Thanks! Enjoy your snack and come again!");
         
         // TODO: Give the user a departure message that makes them feel good about their snack choice 
         
