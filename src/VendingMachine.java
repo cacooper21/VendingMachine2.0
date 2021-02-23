@@ -6,10 +6,7 @@ public class VendingMachine
     {
     	// Variables
     	Double A1,C7, J2; // Vending codes
-
     	Double A2,B4,B5,G8,L9,M5;// Vending codes
-
-
 
     	Double A9,K4;// Vending codes
     	A1 = C7 = J2  = 1.50; //$1 for code
@@ -17,8 +14,8 @@ public class VendingMachine
     	A9 = K4 = 3.00; 	// 3$ for code
     	
     	// Prints
-        System.out.println("Welcome to the best snack machine of your life! This machine only accepts $1 bills. Please insert money.");
-        System.out.println("[A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00 , [J2] Doritos $1.50, [K4] Protein Bar $3.00 \n [L9] Cheetos $2.00 [M5] Twix $2.00");
+        System.out.println("Welcome to the Vending Machine2.0! This machine only accepts $1 bills. Please insert money. (Please enter numbers only");
+        System.out.println("************************************Vending Machine2.0**************************************** \n [A1] Snickers - $1.50, [A2] Chips - $2.00,  [B4] Gatorade - $2.00,  [C7] Reese's - $1.50, [A9] Trail Mix - $3.00, \n [B5] Hershey's - $2.00, [G8] Granola Bar - $2.00 , [J2] Doritos $1.50, [K4] Protein Bar $3.00 \n [L9] Cheetos $2.00 [M5] Twix $2.00");
         System.out.println("How many $1 bills would you like to enter?");
        
         Scanner input = new Scanner(System.in);
