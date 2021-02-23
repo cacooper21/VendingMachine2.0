@@ -7,6 +7,7 @@ public class VendingMachine
     	// Variables
     	Double A1,C7, J2; // Vending codes
     	Double A2,B4,B5,G8,L9,M5;// Vending codes
+
     	Double A9,K4;// Vending codes
     	A1 = C7 = J2  = 1.50; //$1 for code
     	A2 = B4 = B5 = G8 = L9 = M5 = 2.00; //2$ Amount for code
@@ -37,47 +38,47 @@ public class VendingMachine
         // Switch
         switch (snack.toLowerCase()) {
         case "a1": // if its A1 then
-        	System.out.println("Getting A1");
+        	System.out.println("Getting Snickers");
         	amountLeft = amount - A1;
         	break;
         case "a2":
-        	System.out.println("Getting A2");
+        	System.out.println("Getting Chips");
         	amountLeft = amount - A2;
         	break;
         case "b4":
-        	System.out.println("Getting B4");
+        	System.out.println("Getting Gatorade");
         	amountLeft = amount - B4;
         	break;
         case "c7":
-        	System.out.println("Getting C7");
+        	System.out.println("Getting Reese's");
         	amountLeft = amount - C7;
         	break;
         case "a9":
-        	System.out.println("Getting A9");
+        	System.out.println("Getting Trail Mix");
         	amountLeft = amount - A9;
         	break;
         case "b5":
-        	System.out.println("Getting B5");
+        	System.out.println("Getting Hershey's");
         	amountLeft = amount - B5;
         	break;
         case "g8":
-        	System.out.println("Getting G8");
+        	System.out.println("Getting Granola Bar");
         	amountLeft = amount - G8;
         	break;
         case "j2":
-        	System.out.println("Getting J2");
+        	System.out.println("Getting Doritos");
         	amountLeft = amount - J2;
         	break;
         case "k4":
-        	System.out.println("Getting K4");
+        	System.out.println("Getting Protein Bar");
         	amountLeft = amount - K4;
         	break;
         case "l9":
-        	System.out.println("Getting L9");
+        	System.out.println("Getting Cheetos");
         	amountLeft = amount - L9;
         	break;
         case "m5":
-        	System.out.println("Getting M5");
+        	System.out.println("Getting Twix");
         	amountLeft = amount - M5;
         	break;
 		default: // if none match then print this
