@@ -6,7 +6,10 @@ public class VendingMachine
     {
     	// Variables
     	Double A1,C7, J2; // Vending codes
+
     	Double A2,B4,B5,G8,L9,M5;// Vending codes
+// Vending codes
+
     	Double A9,K4;// Vending codes
     	A1 = C7 = J2  = 1.50; //$1 for code
     	A2 = B4 = B5 = G8 = L9 = M5 = 2.00; //2$ Amount for code
