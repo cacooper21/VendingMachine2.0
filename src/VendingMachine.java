@@ -79,7 +79,7 @@ public class VendingMachine
         	amountLeft = amount - L9;
         	break;
         case "m5":
-        	System.out.println("Getting Twix");
+        	System.out.println("Getting a Twix Bar ");
         	amountLeft = amount - M5;
         	break;
 		default: // if none match then print this
